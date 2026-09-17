@@ -1,0 +1,181 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.app-subtitle {
+  margin-top: 6px;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.status-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.status-filter select {
+  min-width: 140px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: -4px -4px 0;
+}
+
+.idea-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.idea-table th {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+  padding: 0 12px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.idea-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.idea-table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.idea-table tbody tr:hover {
+  background: var(--bg-subtle);
+}
+
+.idea-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.idea-table .description {
+  color: var(--text);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.badge-proposed {
+  background: rgba(59, 130, 246, 0.12);
+  color: #3b82f6;
+}
+
+.badge-inreview {
+  background: rgba(234, 179, 8, 0.16);
+  color: #b45309;
+}
+
+.badge-approved {
+  background: rgba(34, 197, 94, 0.14);
+  color: #16a34a;
+}
+
+.badge-rejected {
+  background: rgba(220, 38, 38, 0.12);
+  color: #dc2626;
+}
+
+.idea-table .tags {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.idea-item-actions {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.idea-item-actions button {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.loading-state,
+.empty-state {
+  padding: 48px 12px;
+  text-align: center;
+  color: var(--text);
+}
+
+.idea-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+  max-width: 480px;
+}
+
+.idea-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.idea-form input,
+.idea-form textarea,
+.idea-form select {
+  font-weight: 400;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.form-error {
+  color: var(--danger);
+  font-size: 14px;
+}
+

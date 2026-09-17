@@ -1,1 +1,8 @@
-<Solution />
+<Solution>
+  <Project Path="IdeaTracker.Api/IdeaTracker.Api.csproj" Id="911412b5-1751-41f5-a1e8-198073fa57e1" />
+  <Project Path="IdeaTracker.Application/IdeaTracker.Application.csproj" Id="3c8271fd-21b5-47d2-9336-1135f949243f" />
+  <Project Path="IdeaTracker.Domain/IdeaTracker.Domain.csproj" Id="9da35658-2e25-4385-a4dd-f03d7cae1cb2" />
+  <Project Path="IdeaTracker.Infrastructure/IdeaTracker.Infrastructure.csproj" Id="02d9068f-8119-4199-b21e-0892407c6f9f" />
+  <Project Path="IdeaTracker.Shared/IdeaTracker.Shared.csproj" Id="e80d144d-d468-494c-b5fb-b54cca3046b7" />
+  <Project Path="IdeaTracker.Tests/IdeaTracker.Tests.csproj" Id="8f38a16d-6bca-4f3c-8793-27fca0499874" />
+</Solution>
